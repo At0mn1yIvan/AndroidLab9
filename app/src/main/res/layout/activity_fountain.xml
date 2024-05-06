@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/black"
+    tools:context=".FountainActivity">
 
-    <com.example.lab9.ParticleFountainView
-        android:id="@+id/particleFountainView"
+    <com.example.lab9.FountainView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
