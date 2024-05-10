@@ -26,5 +26,10 @@ public class MainActivity extends AppCompatActivity {
         taskBtn4.setOnClickListener(v -> {
             startActivity(new Intent(this, FountainActivity.class));
         });
+
+        Button taskBtn5 = findViewById(R.id.buttonTask5);
+        taskBtn5.setOnClickListener(v -> {
+            startActivity(new Intent(this, MusicActivity.class));
+        });
     }
 }
