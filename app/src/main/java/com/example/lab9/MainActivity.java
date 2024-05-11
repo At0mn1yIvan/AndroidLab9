@@ -31,5 +31,10 @@ public class MainActivity extends AppCompatActivity {
         taskBtn5.setOnClickListener(v -> {
             startActivity(new Intent(this, MusicActivity.class));
         });
+
+        Button taskBtn6 = findViewById(R.id.buttonTask6);
+        taskBtn6.setOnClickListener(v -> {
+            startActivity(new Intent(this, VideoActivity.class));
+        });
     }
 }

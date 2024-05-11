@@ -30,6 +30,7 @@ public class MusicActivity extends AppCompatActivity {
         musicList = new ArrayList<>();
         musicList.add("cant_stop");
         musicList.add("touch_you_right_now");
+        musicList.add("the_nights");
         // Добавьте остальные треки по аналогии
 
         // Инициализация MediaPlayer и воспроизведение первого трека
